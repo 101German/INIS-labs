@@ -1,1 +1,246 @@
-/* Your Code Here */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+.blue_block {
+    height: 20px;
+    width: auto;
+    background-color: rgb(8, 2, 83);
+}
+
+.head_elements {
+    float: left;
+    line-height: 50px;
+    margin-right: 150px;
+    font-size: 18px;
+    color: rgb(8, 2, 83);
+}
+
+.header_logo {
+    padding: 10px;
+    margin-left: 200px;
+}
+
+.header_logo :last-child {
+    margin-right: 0px;
+}
+
+.nav {
+    height: 50px;
+    width: auto;
+    background-color: rgb(78, 137, 214);
+    margin-top: 70px;
+}
+
+.nav_element {
+    float: left;
+    padding-top: 15px;
+    padding-left: 0;
+    margin-right: 200px;
+}
+
+.nav_block {
+    margin-left: 100px;
+    height: 30px;
+}
+
+.nav_block :last-child {
+    margin-right: 0px;
+}
+
+.nav_element_name {
+    color: rgb(9, 92, 194);
+}
+
+.nav_element :hover {
+    color: black;
+}
+
+.home_image {
+    width: 100%;
+}
+
+.info_block {
+    float: left;
+    margin-right: 150px;
+    padding: 35px;
+    border-radius: 30px;
+    border: 3px solid rgb(8, 2, 83);
+    height: 130px;
+    width: 400px;
+}
+
+.info_block_wrap {
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 260px;
+}
+
+.info_block_wrap :last-child {
+    margin-right: 0;
+}
+
+.info_block_title {
+    color: rgb(8, 2, 83);
+    margin-bottom: 5px;
+}
+
+.footer {
+    height: 60px;
+    width: auto;
+    background-color: rgb(3, 2, 55);
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.nav_footer_element {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    margin-right: 200px;
+    color: white;
+}
+
+.nav_footer_element :hover {
+    color: black;
+}
+
+.nav_footer_block {
+    margin-left: 100px;
+}
+
+.nav_footer_block :last-child {
+    margin-right: 0;
+}
+
+.nav_footer_element_name {
+    color: #fff;
+}
+
+.not_imlemented_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+.product_card {
+    width: 200px;
+    border-radius: 15px;
+    border: 3px solid black;
+    
+}
+
+.product_image {
+    width: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.products_wrap {
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.products_container {
+    margin-top: 10px;
+}
+.product_name{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.product_color_info{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.product_card_footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.product_card_footer button {
+    background-color: #0F1D50;
+    color: #fff;
+    padding: 6px;
+    border-radius: 5px;
+}
+#products{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1vw;
+    width:700px;
+}
+
+.tshirt_details{
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 500px;
+}
+
+.tshirt_image{
+    width: 300px;
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.tshirt_price {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.tshirt_description{
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 300px;
+}
+.info_wrap{
+    display: flex;
+}
+.side_menu{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 60px;
+}
+
+.side_menu button {
+    background-color: #0F1D50;
+    color: #fff;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.side_menu p {
+    padding-top: 5px;
+    margin-right: 5px;
+}
+.color_menu{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.color_menu p {
+    padding-top: 5px;
+    margin-right: 5px;
+}
+.color_menu button{
+    padding: 6px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
